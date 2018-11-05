@@ -102,7 +102,7 @@
     }
 
     .inn {
-        background-image: url(../img/home_2.png);
+        background-image: url(../img/home_2_o.png);
         background-repeat: no-repeat;
         background-position: top;
         height: auto;
@@ -126,7 +126,7 @@
         background-image: url(../img/naranja_2.png);
     }
     .participar {
-        background-image: url(../img/participar.png);
+        background-image: url(../img/participar_o.png);
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
@@ -135,7 +135,7 @@
         background-size: contain;
     }
     .comercial {
-        background-image: url(../img/comercial.png);
+        background-image: url(../img/comercial_o.png);
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
@@ -144,7 +144,7 @@
         background-size: contain;
     }
     .bases {
-        background-image: url(../img/bases.png);
+        background-image: url(../img/bases_o.png);
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
@@ -154,7 +154,7 @@
     }
 
     .sorteos {
-        background-image: url(../img/sorteos_back_2.png);
+        background-image: url(../img/sorteos_back_2_o.png);
         background-repeat: no-repeat;
         background-position: top;
         height: auto;
