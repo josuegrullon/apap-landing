@@ -8,14 +8,81 @@
         -webkit-font-smoothing: antialiased;
     }
 
+
+    .mil25 {
+        width: 15.8%;
+        margin-top: 24%;
+        position: static;
+        margin-left: 30.3%;
+    }
+    .lab {
+        margin-top: -9.3%;
+      width: 28.4%;
+      position: static;
+      margin-left: -25%;
+    }
+    .mil100txt {
+      margin-top: -22%;
+      width: 19.5%;
+      position: static;
+      margin-left: 17.5%;
+      z-index: 9999;
+    }
+    .mil100b {
+        margin-top: -32%;
+      width: 18%;
+      position: static;
+      margin-left: 69.9%;
+    }
+    .proximo_sorteo_text_c {
+        width: 27%;
+        margin-top: 14%;
+        width: 27%;
+        position: static;
+        margin-left: 8%;
+    }   
+    
+    .play-video {
+        bottom: 40%;
+        width: 4%;
+        position: absolute;
+        right: 42%; cursor: pointer;
+    }
+    .el5 {
+        margin-top: -28.7%;
+    }
+    .el4 {
+        margin-top: -21.5%;
+    }
+    .el3 {
+        margin-top: -14.3%;
+    }
+    .el2 {
+        margin-top: -7.2%;
+    }
+    .el1 {
+        margin-top: 0.1%;
+    }
+
     .bg-trans {
         background-color: transparent !important;
     }
-
+     .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5");
+    }
     .golden-zero-image {
         width: auto;
         height: 135px;
         margin-left: 10px;
+    }
+    #play-bases {
+        display: none;
+    }
+    .bases-mod {
+        bottom: 50%;
+      width: 5%;
+      position: absolute;
+      right: 36%; cursor: pointer;
     }
     .apap-image {
         width: auto;
@@ -135,7 +202,8 @@
         background-size: contain;
     }
     .comercial {
-        background-image: url(../img/comercial_o.png);
+        background-image: url(../img/comercial_back_k_o.png);
+        /* background-image: url(../img/comercial_o.png); */
         background-repeat: no-repeat;
         background-position: center;
         height: auto;
@@ -162,7 +230,7 @@
         position: relative;
         margin-bottom: 0px;
         padding-bottom: 25px;
-        background-size: contain;
+        background-size: cover;
         background-position-x: left;
     }
 
@@ -190,3 +258,98 @@
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
+
+
+    /* modal */
+  
+      .demo-modal {
+        background-color: #FFF;
+        box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+        padding: 24px;
+        width: 60%;
+        position: relative;
+        display: none;
+      }
+      .demo-modal-multiple-1 {
+        width: 40%;
+      }
+      .table-demo i {
+        font-size: 11px;
+        color: #999;
+      }
+      .demo-overview button {
+        margin: 0 5px 5px 0;
+      }
+      .btn-firstup:first-letter {
+        text-transform: uppercase;
+      }
+      .tabs  > .demo-tab-content {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .demo-close {
+        display: block;
+        position: absolute;
+        top: -35px;
+        right: -115px;
+        /* right: 0; */
+        z-index: 10000;
+        outline: none;
+        font-size: 30px;
+        line-height: 30px;
+        transition: transform .3s ease-in-out;
+        color: #FFF;
+      }
+      .demo-close > img {
+        width: 45%;
+      }
+      
+      .demo-browsers {
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        color: #888;
+      }
+      .demo-browsers > i {
+        display: inline-block;
+        margin-right: 5px;
+      }
+      .demo-header-button {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .demo-header-button > * {
+        margin-right: 5px;
+      }
+      .demo-close-btn {
+        display: none;
+      }
+      .custombox-fullscreen .demo-close-btn {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .browser-support-content p {
+        text-align: center;
+      }
+      @media screen and (max-width: 767px) {
+        .demo-modal-multiple-1 {
+          width: 60%;
+        }
+        .demo-modal-multiple-1 > button {
+          margin-bottom: 10px;
+        }
+        .demo-header-button,
+        .banner.auto-size h5 {
+          display: none;
+        }
+        .banner.auto-size {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+        .banner h1 {
+          font-size: 21px !important;
+          line-height: 21px !important;
+          text-align: center;
+        }
+      }
+      

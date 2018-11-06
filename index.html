@@ -18,6 +18,13 @@
   <link href="css/responsive.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="css/custombox.min.css" rel="stylesheet">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+  <script>
+    if (!window.Promise) {
+      window.Promise = Promise;
+    }
+  </script> -->
 </head>
 
 <body>
@@ -25,12 +32,13 @@
   <!-- fixed-top -->
   <nav class="navbar navbar-expand-lg  bg-trans fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand nav-b-mob" href="/">
         <img class="golden-zero-image" src="img/logo_cero_de_oro.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img src="img/Menu.png" class="navbar-toggler-icon" alt="">
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ">
@@ -43,7 +51,7 @@
             <a class="nav-link nav-link-custom" href="#sorteos">SORTEOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-link-custom" href="#experiencias">EXPERIENCIAS</a>
+            <a class="nav-link nav-link-custom" href="#bases">EXPERIENCIAS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-custom" href="#bases">BASES</a>
@@ -61,149 +69,622 @@
   <!-- /Navigation -->
 
   <!-- CAROUSEL -->
-  <!-- participar
-sorteos
-experiencias
-bases
-comercial -->
-  <section id="participar" class="slider-wrap d-none d-sm-block ">
+
+  <section class="slider-wrap ">
     <div class="inn">
 
-      <img data-aos-offset="200" data-aos-delay="50" data-aos-mirror="true" data-aos="fade-up-right" src="img/25mil.png" style="
-      width: 15.8%;
-    margin-top: 24%;
-    position: static;
-    margin-left: 30.3%;
-    
-      " alt="">
-      <img data-aos-offset="200" data-aos-delay="50" data-aos-mirror="true" data-aos="fade-right" src="img/laboratorio.png" style="
-      margin-top: -9.3%;
-      width: 28.4%;
-      position: static;
-      margin-left: -25%;" alt="">
+      <img data-aos-mirror="true" data-aos="fade-up-right" src="img/25mil.png" class="mil25" alt="">
+      <img  data-aos="fade-right" src="img/laboratorio.png" class="lab" alt="">
 
-      <!-- top: 13%; -->
-      <img data-aos-offset="200" data-aos-delay="50" data-aos-mirror="true" data-aos="fade-left" src="img/100mil_text_upper.png"
-        style="
-      margin-top: -22%;
-      width: 19.5%;
-      position: static;
-      margin-left: 17.5%;
-      z-index: 9999;" alt="">
+      <img data-aos="fade-left" src="img/100mil_text_upper.png" class="mil100txt" alt="">
 
-      <!-- top: 35.7%; -->
-      <img data-aos-offset="200" data-aos-delay="50" data-aos-mirror="true" data-aos="fade-up-left" src="img/100mil.png" style="
-      margin-top: -32%;
-      width: 18%;
-      position: static;
-      margin-left: 69.9%;
-  " alt="">
-      <img src="img/shaft.png" class="topArrow" style="
-      top: 830px;
-      width: 2%;
-      position: static;
-      margin-left: 50px;" alt="">
+      <img data-aos="fade-up-left" src="img/100mil.png" class="mil100b" alt="">
+
+
+      <a href="#participar">
+        <img src="img/shaft.png" class="topArrow" style="
+  top: 830px;
+  width: 2%;
+  position: static;
+  margin-left: 50px;" alt="">
+
+      </a>
+    </div>
+  </section>
+  <div class="section"></div>
+
+  <section id="participar">
+    <div class="participar">
+      <img src="img/participar.png" class="hiden-xs" width="100%" style="visibility: hidden;" />
+
+      <a href="#sorteos">
+        <img src="img/shaft.png" class="topArrow" style="
+      bottom: 8%;
+    width: 2%;
+    position: absolute;
+    left: 47%;" alt="">
+      </a>
     </div>
   </section>
   <div class="section"></div>
 
   <section id="sorteos">
-    <div class="participar">
-      <img src="img/participar.png" width="100%" style="visibility: hidden;" />
-      <img src="img/shaft.png" class="topArrow" style="
-      bottom: 8%;
-    width: 2%;
-    position: absolute;
-    margin-left: 47%;" alt="">
-    </div>
-  </section>
-  <div class="section"></div>
-
-  <section id="experiencias">
     <div class="sorteos">
-      <img data-aos-offset="200" data-aos-delay="50" data-aos-mirror="true" data-aos="flip-up" src="img/proximo_sorteo_text.png"
-        style="
-            width: 27%;
-            margin-top: 14%;
-            width: 27%;
-            position: static;
-            margin-left: 8%;" alt=" ">
+      <img data-aos="flip-up" src="img/proximo_sorteo_text.png" class="proximo_sorteo_text_c" alt=" ">
 
       <div class="group">
-        <div class="element element_i" style="margin-top: -28.7%; background-image: url(img/naranja_2.png);">
+        <div class="element element_i el5" style=" background-image: url(img/naranja_2.png);">
           <div class="sub_element" style="background-image: url(img/octubre.png); "></div>
         </div>
-        <div class="element" style="margin-top: -21.5%;">
+        <div class="element el4">
           <div class="sub_element" style="background-image: url(img/nov.png); "></div>
         </div>
-        <div class="element" style="margin-top: -14.3%;">
+        <div class="element el3">
           <div class="sub_element" style="background-image: url(img/dic.png); "></div>
         </div>
-        <div class="element" style="margin-top: -7.2%;">
+        <div class="element el2">
           <div class="sub_element" style="background-image: url(img/en.png); "></div>
         </div>
-        <div class="element" style="margin-top: 0.1%;">
+        <div class="element el1">
           <div class="sub_element" style="background-image: url(img/feb.png); "></div>
         </div>
       </div>
 
-      <img src="img/shaft.png" class="topArrow" style="     bottom: 9%;
+      <a href="#comercial">
+        <img src="img/shaft.png" class="topArrow" style="     bottom: 9%;
       width: 2%;
       position: absolute;
       left: 18%;" alt=" ">
+      </a>
     </div>
   </section>
   <div class="section " style="margin-top: -10px;"></div>
 
   <!-- comercial -->
-  <section id="bases">
+  <section id="comercial">
     <div class="comercial">
       <img src="img/comercial.png" width="100%" style="visibility: hidden;" />
-      <img src="img/play.png" style="
-      bottom: 40%;
-      width: 4%;
-      position: absolute;
-      right: 42%;" alt="">
+
+      <img src="img/play.png" id="play-com" class="play-video" alt="">
+      <a href="#bases">
+        <img src="img/shaft.png" class="topArrow" style="     bottom: 9%;
+        width: 2%;
+        position: absolute;
+        left: 87%;" alt=" ">
+      </a>
     </div>
   </section>
   <div class="section" style="margin-top: -10px;"></div>
   <!-- comercial -->
-  <section id="comercial">
+  <section id="bases">
     <div class="bases">
       <img src="img/comercial.png" width="100%" style="visibility: hidden;" />
       <div>
-        <iframe style="
+          <img src="img/play.png" id="play-bases" class="play-video" alt="">
+        <iframe class="hiden-xs" style="
         bottom: 27%;
         position: absolute;
         right: 60%;" width="30%" height="34%" src="https://www.youtube.com/embed/zmfR_Jxl4TQ?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
-      <img src="img/bases_text.png" style="
-      bottom: 50%;
-      width: 5%;
-      position: absolute;
-      right: 36%;" alt="">
+      <img src="img/bases_text.png" id="show-bases" class="bases-mod" alt="">
     </div>
   </section>
   <div class="section" style="margin-top: -10px;"></div>
   <!-- corte comercial -->
-  <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h78eO2TqO8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+  <!-- <-->
+
+  <div id="modal-comercial" class="demo-modal" style="">
+    <a href="javascript:void(0);" onclick="Custombox.modal.close();" class="demo-close">
+      <!-- <i class="fa fa-times"></i> -->
+      <img src="img/close.svg" alt="">
+    </a>
+    <button type="button" class="btn btn-outline btn-info demo-close-btn" onclick="Custombox.modal.close();">Close</button>
+    <iframe width="100%" height="560" src="https://www.youtube-nocookie.com/embed/h78eO2TqO8U" frameborder="0" allow="accelerometer;
+    autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div id="modal-bases-video" class="demo-modal" style="">
+    <a href="javascript:void(0);" onclick="Custombox.modal.close();" class="demo-close">
+      <!-- <i class="fa fa-times"></i> -->
+      <img src="img/close.svg" alt="">
+    </a>
+    <iframe 
+    width="100%" height="100%" src="https://www.youtube.com/embed/zmfR_Jxl4TQ?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+
+  <div id="modal-bases" class="demo-modal" style="null">
+    <a href="javascript:void(0);" onclick="Custombox.modal.close();" class="demo-close">
+      <!-- <i class="fa fa-times"></i> -->
+      <img src="img/close.svg" alt="">
+    </a>
+    <button type="button" class="btn btn-outline btn-info demo-close-btn" onclick="Custombox.modal.close();">Close</button>
+    <div class="uk-modal-body uk-overflow-auto" uk-overflow-auto="" style="overflow: scroll; min-height: 150px; max-height: 418px;">
+      <div class="modal-header">
+        <div class="uk-text-center">
+          <img class="apap-modal-logo" src="img/logo-apap.png">
+          <div class="info">
+            <div class="blue">ASOCIACIÓN POPULAR DE AHORROS Y PRÉSTAMOS (APAP)</div>
+            <small class="gray">Avenida Máximo Gómez esquina avenida 27 de Febrero, El Vergel, Santo Domingo</small>
+            <br>
+            <small class="gray">
+              <u>servicioalcliente@apap.com.do</u> / 809-689-0171</small>
+            <br>
+            <small>
+              <strong>Registrado por Pro Consumidor bajo el No. CRS-0450/2018</strong>
+            </small>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <h4 class="uk-text-center">
+        <strong>BASES DEL CONCURSO
+          <br> "CERO DE ORO 2018"</strong>
+      </h4>
+
+      <div>
+        <small>
+          En el período desde el dieciséis (16) de octubre del año dos mil dieciocho (2018) al treinta y uno (31) de enero del año
+          dos mil diecinueve (2019), se celebrará la promoción del Cero de Oro y Cerito de Oro, versión dos mil dieciocho
+          (2018), en la cual participarán, sujeto a las restricciones o condiciones de participación que establecen las presentes
+          Bases de Concurso, todas las cuentas de Ahorro Regular, Balance Mínimo Flexible, Ahorro Vivienda, Ahorro Habitacional,
+          Ahorro Infantil, Ahorro a la Medida, Ahorro Programado y Débito Regular, Juvenil, Gold y Familiar, los préstamos
+          hipotecarios, préstamos de consumo de cualquier índole y préstamos de vehículos, las tarjetas de crédito locales,
+          internacionales, Más Límite y Familiar tanto de las marcas Visa como MasterCard, los certificados financieros y
+          los servicios a través de la aplicación móvil APAPPMóvil y el internet banking APAPenlíne@ que realicen operaciones
+          dentro del período mencionado. También participarán todas las cuentas mencionadas anteriormente, reactivadas o
+          abiertas, durante el mismo período de tiempo.
+        </small>
+        <br>
+        <br>
+
+        <strong>a) Cero de Oro – Cuentas de Ahorros y Certificados– Sorteos Regulares:</strong>
+        <br>
+        <small>
+          1- Se realizarán cinco (5) sorteos regulares para premiar el comportamiento de las cuentas de ahorros en el período comprendido
+          entre el dieciséis (16) de octubre del año dos mil dieciocho (2018) al treinta y uno (31) de enero del año dos
+          mil diecinueve (2019), en los cuales participarán, sujeto a las restricciones o condiciones de participación que
+          establecen las presentes Bases de Concurso, todos los clientes con las cuentas de ahorros mencionadas anteriormente,
+          que realicen operaciones dentro del período citado para los sorteos regulares. También participarán todos los clientes
+          con las cuentas mencionadas en el párrafo inicial de estas Bases, reactivadas o abiertas, durante el mismo período
+          de tiempo. De igual forma, participan todos los clientes con certificados financieros abiertos durante el período
+          comprendido entre el dieciséis (16) de octubre del año dos mil dieciocho (2018) al treinta y uno (31) de enero
+          del año dos mil diecinueve (2019).
+          <br>
+          <br> 2- Participarán todos los clientes con certificados financieros abiertos durante el período de la promoción con
+          un monto mínimo de RD$10,000.00 (diez mil pesos con 00/100).
+          <br>
+          <br> 3- La totalidad de las cuentas activas de cada cliente generará números de participación (boletos electrónicos)
+          dependiendo de la operación realizada en las mismas:
+          <br> a. Por cada RD$500.00 (quinientos pesos con 00/100) de incremento en la totalidad de las cuentas por cliente se
+          genera un (1) número de participación. i. Incluye las cuentas reactivadas presencialmente en sucursales y nuevas
+          cuentas cuyo incremento en el período sea igual o mayor de RD$500.00 (quinientos pesos con 00/100).
+          <br>
+          <br> 4- Todos los clientes que cumplan con el punto 3 de las presentes Bases de Concurso generarán un (1) número de
+          participación adicional (boleto electrónico adicional) en función de cada una de las acciones indicadas a continuación:
+          <br> a. Por cada transacción realizada a través de APAPPMóvil o APAPenlíne@ antes de los noventa (90) días previos
+          al corte de cada uno de los sorteos, indicados en el punto e de las presentes Bases de Concurso, titulado “
+          <strong>Períodos de corte, fechas de sorteos y de reclamación de premios</strong>”.
+          <br> b. Por cada tarjeta de crédito activa al momento de la realización del corte de cada sorteo.
+          <br> c. Por cada préstamo hipotecario o de consumo vigente a la realización del corte de cada sorteo.
+          <br> d. Por cada certificado financiero abierto durante el período de corte previo a la celebración de cada sorteo.
+          <br> e. Por cada cuenta enlazada a una tarjeta de débito (regular, gold, familiar o juvenil).
+          <br>
+          <br> 5- A todos clientes que califiquen para los sorteos regulares, se le asignará al cierre de las operaciones del
+          día de corte para cada uno, de forma electrónica y aleatoria, un número de participación según el esquema de participación
+          mencionado en el numeral 4 de este punto.
+          <br>
+          <br> 6- En cada sorteo regular se sortearán premios en especie, a saber:
+          <br> a. Dos (02) apartamentos a sortearse entre todas las cuentas de ahorro de todas las sucursales de la Asociación
+          Popular de Ahorros y Préstamos (APAP) que cumplan con las condiciones indicadas en los acápites a.3 y a.4 de las
+          presentes Bases de Concurso.
+          <br> i. En el 3er sorteo a celebrarse en el mes de diciembre: un (1) apartamento a sortearse entre todas las cuentas
+          de todas las sucursales de la Asociación Popular de Ahorros y Préstamos, y un (1) premio de un (1) apartamento
+          a sortearse entre todas las cuentas de las sucursales pertenecientes a la Región Norte de la Asociación Popular
+          de Ahorros y Préstamos (correspondientes a las ciudades de Santiago, San Francisco de Macorís, Moca, La Vega y
+          Puerto Plata).
+          <br> b. Dos (02) premios en efectivo de cien mil pesos con 00/100 (RD$100,000.00) a sortearse entre todas las cuentas
+          de ahorro participantes que cumplan con las condiciones indicadas en los acápites a.3 y a.4 de las presentes Bases
+          de Concurso
+          <br> c. Dos (02) premios en efectivo de veinticinco mil pesos con 00/100 (RD$25,000.00) entre todos los certificados
+          financieros abiertos que cumplan con las condiciones indicadas en el acápite a.2.
+          <br> d. Dos (02) premios en efectivo de veinticinco mil pesos con 00/100 (RD$25,000.00) a sortearse entre todas las
+          cuentas de menores de edad que cumplan con las condiciones indicadas en el punto b de las presentes Bases de Concurso.
+          <br>
+          <br> 7- En cada corte de sorteo se generan nuevos números de participación, quedando sin efecto los números de participación
+          generados en el corte anterior.
+          <br>
+          <br> 8- Cada sorteo será realizado a más tardar diez (10) días laborables posteriores a la fecha de corte. APAP podrá
+          aplazar o adelantar las fechas de celebración de cada sorteo, previa notificación a la Superintendencia de Bancos,
+          Pro Consumidor y comunicación al público.
+          <br>
+          <br> 9- La selección de los apartamentos será realizada por la Asociación Popular de Ahorros y Préstamos (APAP), a
+          través de la Constructora Bisonó, los cuales pudieran estar en proceso de construcción al momento de celebración
+          de los sorteos de esta promoción, para lo cual la Asociación Popular de Ahorros y Préstamos (APAP) estará contemplando
+          la entrega de estos antes o durante el transcurso del segundo semestre del año 2019. Dichos apartamentos estarán
+          ubicados en el proyecto Juan Rafael de Constructora Bisonó, localizado en la Av. Jacobo Majluta, en la ciudad de
+          Santo Domingo, y en el proyecto Urbanización del Yaque I, localizado en la Avenida Universitaria del sector Bella
+          Vista, en la ciudad de Santiago.
+          <br>
+          <br> 10- En caso de reclamación sobre la calidad de construcción de los apartamentos seleccionados, por los vicios
+          ocultos y de manera general por las condiciones de habitabilidad de los apartamentos sorteados, el ganador deberá
+          canalizarlas a través de APAP a la Constructora Bisonó, que es la proveedora de los premios. 11- Los premios no
+          son transferibles a terceros.
+          <br>
+          <br> 12- Los premios en efectivo serán acreditados a las cuentas de ahorros ganadoras, en el plazo de siete (7) días
+          laborables posteriores a la celebración de cada sorteo.
+          <br>
+          <br> 13- En el caso de Certificados a Plazo, si el/los ganador(es) no tiene una cuenta de ahorros en APAP, se solicitará
+          la apertura de una cuenta de ahorro a nombre del ganador(es) para el depósito de los fondos de premios en efectivo.
+          En caso de que el ganador no realice las gestiones de apertura de cuenta de ahorro en un plazo de diez (10) días
+          laborables posteriores a la notificación del premio, la Asociación Popular de Ahorros y Préstamos (APAP) podrá
+          volver a sortear el premio, bajo la misma metodología detallada en estas bases, en sorteos venideros de la promoción,
+          el cual será informado vía
+          <u>medios de comunicación APAP</u>.
+          <br>
+          <br>
+        </small>
+
+        <strong>b) Cerito de Oro-Cuentas de Menores de edad:</strong>
+        <br>
+        <br>
+        <small>
+          1- Participarán todos los clientes con cuentas de menores de edad (Cuentas de Ahorro Infantil), cuyos cuentahabientes, que
+          al uno (01) de octubre del año dos mil dieciocho (2018)) no hayan cumplido catorce (14) años de edad y que, a la
+          fecha de corte de cada sorteo, tengan un balance mínimo de RD$500.00 (quinientos pesos con 00/100) en su libreta.
+          <br>
+          <br> 2- La totalidad de las cuentas activas de cada cliente generará números de participación (boletos electrónicos)
+          dependiendo de la operación realizada en las mismas: a. Por cada quinientos pesos con 00/100 (RD$500.00)
+          <u>de incremento</u> en la totalidad de las cuentas por cliente se genera un (1) número de participación.
+          <br>
+          <br> 3- A todas los clientes que califiquen para este sorteo, se le asignará al cierre de las operaciones de los días
+          de corte correspondientes, de forma electrónica y aleatoria, un número de participación según el esquema de participación
+          mencionado en el numeral 2 de este punto.
+          <br>
+          <br> 4- Sin perjuicio a las demás condiciones listadas en la presente Bases de Concurso, se establece que la participación
+          en esta promoción está sujeta a que la última fecha de operación de la cuenta de ahorro no exceda los cuatro (4)
+          meses, anteriores a la fecha del sorteo.
+          <br>
+          <br> 5- Se sortearán entre los participantes que cumplan con las condiciones de esta promoción: a. Diez (10) premios
+          en efectivo de veinticinco mil pesos con 00/100 (RD$25,000.00) para cada ganador. i. Dos (2) premios en efectivo
+          en cada sorteo.
+          <br>
+          <br> 6- Los premios en efectivo serán acreditados a las cuentas de ahorros ganadoras, en el plazo de siete (7) días
+          laborables posteriores a la celebración de cada sorteo.
+          <br>
+          <br> 7- Cualquier variación a estas bases será notificada por la vía escrita a la Superintendencia de Bancos. Y, de
+          igual modo, a la Dirección Ejecutiva de Pro Consumidor para su aprobación, en virtud de lo dispuesto en el artículo
+          segundo de la Resolución No. 009.2011.
+        </small>
+        <br>
+        <br>
+
+        <strong>c) Cero de Oro –Sorteo Final:</strong>
+        <br>
+        <br>
+        <small>
+          1- Se realizará un sorteo final el día ocho (08) de febrero de dos mil diecinueve (2019), para premiar el comportamiento
+          de los clientes con cuentas de ahorros en el período comprendido entre el ocho (08) de octubre del año dos mil
+          dieciocho (2018) al treinta y uno (31) de enero del año dos mil diecinueve (2019), en el cual participarán, sujeto
+          a las restricciones o condiciones de participación que establecen las presentes Bases de Concurso, todas las cuentas
+          de ahorros antes mencionadas, que realicen operaciones dentro del período citado. También participarán todas las
+          cuentas mencionadas reactivadas o abiertas durante el mismo período de tiempo; además aquellas que su última fecha
+          de operación no sea anterior al día dos (02) de julio del año dos mil dieciocho (2018).
+          <br>
+          <br> 2- Participarán todos los clientes con las cuentas de ahorros mencionadas que tengan a la fecha de corte de cuantificación
+          de movimientos realizados en dichas cuentas un balance mínimo de quinientos pesos con 00/100 (RD$500.00).
+          <br>
+          <br> 3- Participarán todos los certificados financieros mencionados, abiertos durante el período de la promoción, con
+          un monto mínimo de diez mil pesos con 00/100 (RD$10,000.00).
+          <br>
+          <br> 4- La totalidad de las cuentas activas de cada cliente, generará números de participación (boletos electrónicos)
+          dependiendo de la operación realizada en las mismas:
+          <br> a. Por cada quinientos pesos con 00/100 (RD$500.00) de incremento en la totalidad de las cuentas por cliente se
+          genera un (1) número de participación.
+          <br> i. Incluye las cuentas reactivadas presencialmente en sucursales y nuevas cuentas cuyo incremento en el período
+          sea igual o mayor de quinientos pesos con 00/100 (RD$500.00). b. Por cada RD$500.00 (quinientos pesos con 00/100)
+          de balance a la fecha de corte se genera un (1) número de participación, con un tope máximo de veinticinco (25)
+          números de participación.
+          <br>
+          <br> 5- Todos los clientes que cumplan con el punto 3 de las presentes Bases de Concurso generarán un (1) número de
+          participación adicional (boleto electrónico adicional) en función de cada una de las acciones indicadas a continuación:
+          <br> a. Por cada transacción realizada a través de APAPPMóvil o APAPenlíne@ antes de los noventa (90) días previos
+          al corte de cada uno de los sorteos, indicados en el punto e de las presentes Bases de Concurso, titulado “Períodos
+          de corte, fechas de sorteos y de reclamación de premios”.
+          <br> b. Por cada tarjeta de crédito activa al momento de la realización del corte de cada sorteo.
+          <br> c. Por cada préstamo hipotecario o de consumo vigente a la realización del corte de cada sorteo.
+          <br> d. Por cada certificado financiero abierto durante el período de corte previo a la celebración de cada sorteo.
+          <br> e. Por cada cuenta enlazada a una tarjeta de débito (regular, gold, familiar o juvenil).
+          <br>
+          <br> 6- A todos los clientes que califiquen para los sorteos regulares, se le asignará al cierre de las del día treinta
+          y uno (31) de enero del año dos mil diecinueve (2019), de forma electrónica y aleatoria, un número de participación
+          según el esquema de participación mencionado en el numeral 4 de este punto.
+          <br>
+          <br> 7- Se sortearán premios a saber:
+          <br> a. Dos (02) apartamentos a sortearse entre todas las cuentas de ahorro de todas las sucursales de la Asociación
+          Popular de Ahorros y Préstamos (APAP) que cumplan con las condiciones indicadas en los acápites a.3 y a.4 de las
+          presentes Bases de Concurso.
+          <br> b. Dos (02) premios en efectivo de cien mil pesos con 00/100 (RD$100,000.00) a sortearse entre todas las cuentas
+          de ahorro participantes que cumplan con las condiciones indicadas en los acápites a.3 y a.4 de las presentes Bases
+          de Concurso
+          <br> c. Dos (02) premios en efectivo de veinticinco mil pesos con 00/100 (RD$25,000.00) entre todos los certificados
+          financieros abiertos que cumplan con las condiciones indicadas en el acápite a.2.
+          <br> d. Dos (02) premios en efectivo de veinticinco mil pesos con 00/100 (RD$25,000.00) a sortearse entre todas las
+          cuentas de menores que cumplan con las condiciones indicadas en el punto b de las presentes Bases de Concurso.
+          <br>
+          <br> 8- La selección de los apartamentos será realizada por la Asociación Popular de Ahorros y Préstamos (APAP), a
+          través de la Constructora Bisonó y Promotora Inmobiliaria del Yaque, dentro de los proyectos Ciudad Modelo Norte
+          y Urbanización del Yaque I, ubicados en la ciudad de Santo Domingo y la ciudad de Santiago respectivamente.
+          <br>
+          <br> 9- En caso de reclamación sobre la calidad de construcción del apartamento seleccionado, por los vicios ocultos
+          y de manera general por las condiciones de habitabilidad de los apartamentos sorteados, el ganador deberá canalizarlas
+          a través de APAP a la Constructora Bisonó, que es la proveedora de los premios. Sin embargo, el cliente reconoce
+          que APAP no será responsable de ningún tipo de daño o desperfecto de construcción que tenga cualquiera de los apartamentos
+          que sorteará para el Concurso del Cero de Oro, siendo única y exclusivamente responsable la constructora de cara
+          a los clientes ganadores.
+          <br>
+          <br> 10- Los premios no son transferibles a terceros.
+          <br>
+          <br> 11- Cualquier variación a estas bases será notificada por la vía escrita a la Superintendencia de Bancos. Y, de
+          igual modo, a la Dirección Ejecutiva de Pro Consumidor para su aprobación, en virtud de lo dispuesto en el artículo
+          segundo de la Resolución No. 009.2011.
+          <br>
+          <br>
+        </small>
+
+        <strong>d) Condiciones Generales Cero y Cerito de Oro – Cuentas de Ahorro y Certificados:</strong>
+        <br>
+        <br>
+        <small>
+          1- Sólo participarán las cuentas de ahorros y certificados personas físicas.
+          <br>
+          <br> 2- No participarán en esta promoción los clientes con depósitos en cuentas por concepto de desembolso de préstamos
+          y obsequios promocionales a nuevas cuentas o activadas durante el período promocional que corresponda, que al momento
+          del corte reflejen un incremento de balance total final menor al monto desembolsado u obsequiado.
+          <br>
+          <br> 3- Todos los sorteos se realizarán mediante el sistema electrónico de bolos, en presencia del público y frente
+          a un Notario Público, en las instalaciones de la Asociación Popular de Ahorros y Préstamos (APAP). La fecha de
+          cada sorteo será informada antes de la celebración de cada uno a través de medios impresos de prensa y las redes
+          sociales APAP.
+          <br>
+          <br> 4- Si el valor depositado en una cuenta de ahorros ganadora fue recibido en cheque(s), el premio será entregado
+          únicamente si el o los cheques depositados han sido pagados por la institución financiera libradora del mismo.
+          <br>
+          <br> 5- Por cada sorteo celebrado, a cada cliente ganador, tanto de cuentas de ahorro como de certificados, se le excluirá
+          de los demás sorteos de esta promoción. La exclusión no es limitante a la cuenta ganadora, sino a todas las cuentas
+          del cliente en la que sea titular y/o secundario. Cada cliente ganador podrá ser acreedor de un (1) único premio
+          durante todo el período promocional del Cero de Oro.
+          <br>
+          <br> 6- Los titulares de las cuentas de ahorros ganadores, que además sean prestatarios o tarjetahabientes de crédito
+          de esta entidad, para recibir su premio deberán estar completamente al día en sus pagos y compromisos frente a
+          esta para ser elegibles a recibir los premios objeto de esta promoción, en caso de que resulte ganador un cliente
+          que no cumpla con esta condición se dará la opción de realizar los pagos correspondientes dentro de los siete (7)
+          días laborables siguientes a la notificación del premio. En caso contrario, se realizará un nuevo sorteo para seleccionar
+          un nuevo ganador. No participan clientes de cuentas de ahorros que durante el período de corte también sean prestatarios
+          o tarjetahabientes de créditos castigados o en procesos legales (con balances pendientes). Podrán participar todos
+          los clientes que hayan saldado sus deudas previo a la fecha límite de corte final de cada sorteo.
+          <br>
+          <br> 7- Participan los incrementos en cuentas realizados por transferencias vía ACH a cuentas inactivas siempre y cuando
+          el cliente haya realizado la acción de reactivación de manera presencial en una sucursal APAP antes de la fecha
+          de corte de cada sorteo.
+          <br>
+          <br> 8- En caso de premios en naturaleza (apartamentos) de cuentas mancomunadas ganadoras, el premio deberá ser reclamado
+          por todos los titulares de la cuenta. En caso de que uno de los titulares de la cuenta se encuentre imposibilitado
+          para presentarse a la reclamación del premio, deberá presentar un Poder Notarial, si se encuentra en el país y
+          Consular si se encuentra fuera del país, donde se especifique que el mismo ha sido otorgado a los fines de la reclamación
+          de dicho premio, el poder deberá ser revisado previamente conforme a las Políticas y Procedimientos de APAP. En
+          caso de premios en efectivo, la recepción se realizará mediante una de las vías regulares de retiro de efectivo,
+          estipuladas por la Asociación Popular de Ahorros y Préstamos (APAP).
+          <br>
+          <br> 9- Los apartamentos para sortearse entre todas las sucursales de la Asociación Popular de Ahorros y Préstamos
+          (APAP) constan de: dos (2) habitaciones, sala, comedor, cocina y un (1) baño.
+          <br>
+          <br> 10- En caso de que un(a) ganador (a) no acepte un premio en naturaleza y/o solicite formalmente equivalente en
+          efectivo, APAP queda liberada de entregar dicho premio y podrá sortearlo nuevamente, bajo la misma metodología
+          detallada en estas bases, en sorteos venideros, el cual será informado vía medios de comunicación APAP.
+          <br>
+          <br> 11- Los premios en naturaleza (apartamentos) sólo serán entregados al ganador o ganadora a partir de la entrega
+          de las unidades concluidas por parte de la Constructora a la que APAP está comprando los mismos. En adición, la
+          transferencia a favor del ganador o ganadora se efectuará cuando la constructora (vendedora) obtenga el Certificado
+          de Título, Duplicado del Dueño, a su favor. El (la) ganador(a) acepta y reconoce que el proceso de obtención del
+          Certificado de Título o Matrícula no depende de APAP sino de la Jurisdicción Inmobiliaria y que no podrá vender
+          el inmueble hasta tanto no sea transferido el mismo a su favor.
+          <br>
+          <br> 12- Los premios en naturaleza (apartamentos) sólo serán entregados al ganador o ganadora si son reclamados personalmente
+          por el ganador o ganadora, así como también por su apoderado legal, mediante poder Notarial o Consular para los
+          casos que aplique (o su representante legal, en el caso de los menores) con anterioridad a la fecha límite para
+          efectuar la reclamación de los mismos. Ver punto f. de las presentes Bases la fecha tope de reclamación de premios.
+          <br>
+          <br> 13- En caso de que un cliente no reclame el premio otorgado antes de la fecha de reclamación correspondiente al
+          sorteo en el cual resultó ganador, el mismo será sorteado nuevamente en un próximo sorteo que será debidamente
+          informado vía
+          <u>medios de comunicación APAP</u>. En el mismo sentido, en caso de que un cliente, luego de haber reclamado el premio
+          en especie, no complete la presentación de la documentación necesaria para la redención del premio durante el período
+          de treinta (30) días posterior a la fecha tope de reclamación del premio, el mismo será sorteado nuevamente, bajo
+          la misma metodología detallada en estas bases, en sorteos venideros de la promoción, el cual será informado vía
+          <u>medios de comunicación APAP</u>.
+          <br>
+          <br> 14- Del mismo modo, APAP previa notificación vía medios de comunicación APAP, está en la libertad de sortear,
+          donar o retener el premio para una próxima actividad promocional, cuando luego de realizado un primer y segundo
+          sorteo el premio queda desierto en virtud del cumplimiento a las bases del concurso.
+          <br>
+          <br> 15- El pago de los impuestos correspondientes, según el monto del premio, dispuesto por las leyes tributarias,
+          para todos los casos, incluyendo premios en efectivo y en naturaleza (apartamentos), serán asumidos por la Asociación
+          Popular de Ahorros y Préstamos (APAP):
+          <br> a. En cumplimiento a lo dispuesto en la Ley 253-12, numeral C, para el Fortalecimiento de la Capacidad Recaudatoria
+          del Estado para la Sostenibilidad Fiscal y el Desarrollo Sostenible, la Asociación Popular de Ahorros y Préstamos
+          asumirá el 25% sobre el premio recibido, equivalentes a la retención correspondiente a ganancias obtenidas en loterías,
+          fracatanes, lotos, loto quizz, premios electrónicos provenientes de juegos de azar y premios ofrecidos a través
+          de campañas promocionales o publicitarias o cualquier otro tipo de apuesta o sorteo no especificado, con carácter
+          de pago definitivo).
+          <br>
+          <br> 16- Todos los costos derivados de la reclamación del premio por parte del cliente, así como los gastos en que
+          incurran los clientes como consecuencia de la obtención y entrega del mismo deberán ser asumidos por estos. incluyendo,
+          gastos legales para representación del cliente por parte de un tercero, gastos legales por Poder Notarial o Consular,
+          obtención de documentación personal, gastos de traslado y estadía, se encontrarán a exclusivo y entero cargo, costo
+          y responsabilidad de cada ganador.
+          <br>
+          <br> 17- Los ganadores de premios de esta promoción autorizan a la Asociación Popular de Ahorros y Préstamos (APAP),
+          a utilizar sus nombres, datos personales, voz e imagen, a través de la prensa o cualquier otro medio publicitario,
+          como redes sociales APAP, correos electrónicos masivos, televisión o radio, sin que esto amerite alguna compensación
+          o autorización adicional alguna de parte del ahorrista, quien se adhiere a las presentes condiciones mediante su
+          participación en el sorteo.
+          <br> a. La información sobre ganadores de esta promoción será publicada en una sola ocasión en prensa nacional, a más
+          tardar quince (15) días laborables a partir de la celebración de cada sorteo, luego de haber sido contactados todos
+          los ganadores e informados de sus premios, siendo utilizada la información sobre los ganadores por y durante esta
+          única ocasión por cada sorteo.
+          <br>
+          <br> 18- No participarán en los sorteos de la Asociación Popular de Ahorros y Préstamos (APAP), sus directores, funcionarios,
+          empleados, vinculados directos de empleados (padres, hijos, cónyuges, hermanos, abuelos, nietos, suegros, yernos,
+          nueras) y tampoco cuentas de ahorros donde empleados de APAP figuren como apoderados, contratistas y/o consultores,
+          proveedores, notarios y tasadores autorizados de la Asociación Popular de Ahorros y Préstamos (APAP), así como
+          cuentas cuyos titulares están fallecidos, personas con procesos judiciales contra APAP o contra las cuales APAP
+          haya establecido un proceso judicial, con los clientes que tengan alguna actividad judicial y haya sido condenado
+          por lo que es acusado, así como también con clientes que figuren en las listas restrictivas. Tampoco participarán
+          las cuentas embargadas que posea un cliente de APAP. Sin embargo, todos los clientes, sean estos hombres o mujeres
+          disfrutarán del derecho de igualdad al participar en el presente concurso, sin discriminación por razones de género,
+          color, edad, discapacidad, nacionalidad, lengua, religión, opinión política y filosófica, condición social o personal.
+          Igualmente, APAP se compromete a realizar un trato equitativo y no discriminatorio ni abusivo frente a los clientes
+          que participen en el presente concurso. Finalmente, el cliente de APAP podrá ejercer los derechos que les confieren
+          las leyes dominicanas, en caso de que sienta que los mismos han sido vulnerados o violados. Si luego de efectuarse
+          las validaciones correspondientes, se verifica que resultó ganador(a) un(a) cliente con alguna de las características
+          mencionadas anteriormente, la Asociación Popular de Ahorros y Préstamos (APAP), anulará el premio y lo sorteará
+          nuevamente en un próximo sorteo que será debidamente informado en un medio de comunicación de APAP.
+          <br> a. Si un ganador de premio en naturaleza (apartamento) se evidencia que mantiene la relación de cuñado o cuñada
+          con un empleado, director o funcionario de APAP, ésta se reserva el derecho de reversar el premio, en virtud de
+          que su cónyuge es, en realidad, un vinculado de APAP, y por tanto entra en el disfrute del premio. En caso de decidir
+          reversar el premio por la vinculación con el empleado, director o funcionario de APAP, el premio será sorteado
+          nueva vez a los clientes, bajo la misma metodología detallada en estas bases, en sorteos venideros de la promoción,
+          el cual será informado vía
+          <u>medios de comunicación APAP</u>.
+          <br>
+          <br> 19- En caso de suscitarse cualquier situación no contemplada en el presente documento, tales como factores de
+          no elegibilidad, fraude, información errada o confusa anulan automáticamente al participante y a cualquier ganador
+          o ganadora para fines de premiación. Asimismo, la Asociación Popular de Ahorros y Préstamos (APAP) podría, en caso
+          de considerarlo, ordenar un peritaje en caso de que se sospeche o se tenga duda sobre el cumplimiento cabal de
+          las reglas del concurso y el carácter elegible del participante, así como de tomar las acciones siempre conforme
+          a las leyes.
+          <br>
+          <br> 20- APAP podrá aplazar o adelantar las fechas de conclusión de la promoción y de celebración del sorteo, incluir
+          otros tipos de premios u otros tipos de participación (vía redes sociales o vía presencial en sucursales), continuar,
+          modificar, ampliar o suspender la misma por causas justificadas previa notificación a la Superintendencia de Bancos,
+          Pro Consumidor para fines de aprobación y comunicación al público.
+          <br>
+          <br> Los reglamentos y condiciones especificados en la libreta de ahorros y así como la última versión del contrato
+          de cuentas de ahorros aprobado y registrado en la Superintendencia de Bancos mediante Oficio No. 001152 de fecha
+          12 de abril del año 2018, y de certificados financieros de Oficios No.000712, 000713 y 000714, todos de fecha 13
+          de marzo del año 2018, los cuales forman parte de estas Bases. Los contratos antes señalados se encuentran disponibles
+          al público en su página Web
+          <a target="_blank" href="https://www.apap.com.do">
+            <u>www.apap.com.do</u>
+          </a> y en sus sucursales.
+          <br>
+          <br> Queda expresamente establecido que los cuentahabientes, tarjetahabientes y de manera general todos los participantes
+          en esta promoción aceptan las condiciones de la misma con el solo hecho de su participación en los sorteos.
+          <br>
+          <br> Las presentes bases de concurso se encuentran disponibles al público en su página Web
+          <a target="_blank" href="https://www.apap.com.do">www.apap.com.do</a> y en sus sucursales.
+          <br>
+          <br>
+        </small>
+
+        <strong>e) Períodos de corte, fechas de sorteos y de reclamación de premios*:</strong>
+        <br>
+        <img src="img/raffles_table.png">
+        <br>
+        <br>
+        <small>
+          *Estas transacciones serán válidas conforme a la fecha y hora del inicio de cierre de las operaciones de sucursales y canales
+          electrónicos de acuerdo a cada una de las fechas de inicio y conclusión del período promocional para cada sorteo.
+        </small>
+      </div>
+    </div>
+  </div>
+
 
 
 
 
   <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+  <script src="js/custombox.legacy.min.js"></script>
+  <script src="js/custombox.min.js"></script>
   <script>
-    AOS.init();
+
+    // AOS.init();
+    AOS.init({
+      // Global settings:
+      disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: true, // whether elements should animate out while scrolling past them
+
+    });
+
+    // Instantiate new modal
     $(document).ready(function () {
       setInterval(function () {
         $('.element_i').toggleClass('element_i_hover');
       }, 1000)
       setTimeout('topArrow()');
+
+      var modal = new Custombox.modal({
+        content: {
+          effect: 'fadein',
+          target: '#modal-comercial'
+        }
+      });
+
+      $("#play-com").click(function () {
+        modal.open()
+      })
+      var modal2 = new Custombox.modal({
+        content: {
+          effect: 'fadein',
+          target: '#modal-bases'
+        }
+      });
+
+      $("#show-bases").click(function () {
+        modal2.open()
+      })
+      var modal3 = new Custombox.modal({
+        content: {
+          effect: 'fadein',
+          target: '#modal-bases-video'
+        }
+      });
+
+      $("#play-bases").click(function () {
+        modal3.open()
+      })
+
+      $('.nav-link-custom').on('click', function () {
+        $('.btn-navbar').click(); //bootstrap 2.x
+        $('.navbar-toggle').click(); //bootstrap 3.x by Richard
+        $('.navbar-toggler').click(); //bootstrap 4.x
+      });
+
     });
 
 

@@ -1,3 +1,236 @@
 @media (max-width: 480px) {
    
+    .navbar-toggler {
+        top: 0;
+    position: absolute;
+    right: 0;
+
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+    height: auto !important;
+    width: auto !important;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    }
+    .golden-zero-image {
+        width: 26%;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .apap-image {
+        width: 52%;
+        height: auto;
+    }
+    .nav-b-mob {
+        width: 50%;
+    }
+    .nav-cus {
+        position: absolute;
+        top: 0;
+        right: -40px;
+        z-index: -1;
+    }
+    .topArrow {
+        display: none;
+    }
+
+    .uk-modal-body {
+        overflow: scroll;
+        min-height: auto !important;
+        max-height: fit-content !important;
+        height: 100% !important;
+    }
+
+    #play-bases {
+        display: block !important;
+    }
+    .inn {
+        background-image: url(../img/background_1_mobile.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 900px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        background-size: cover;
+    }
+    .participar {
+        background-image: url(../img/como_participar_mbile.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 850px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        background-size: cover;
+    }
+    .sorteos {
+        background-image: url(../img/proximo_mobile.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 850px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        background-size: cover;
+    }
+    .bases {
+        background-image: url(../img/maquina.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 850px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        background-size: cover;
+    }
+    .comercial {
+        background-image: url(../img/comercial_mobi.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 850px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        background-size: cover;
+    }
+
+    .play-video {
+        top: 40%;
+    width: 10%;
+    position: absolute;
+    right: 45%;
+    cursor: pointer;
+    }
+    iframe {
+        height: 100% !important;
+    }
+    .demo-close {
+        display: block;
+        position: absolute;
+        top: -1px;
+        right: -94px;
+    }
+    #modal-comercial {
+        height: 100%;
+        width: 100%;
+        padding: 7px;
+    }
+
+    .proximo_sorteo_text_c {
+        width: 27%;
+        margin-top: 31%;
+        width: 89%;
+        position: static;
+        margin-left: 8%;
+    }
+    .group {
+        display: flex;
+        flex-direction: column;
+        position: static;
+        margin-left: 24.5%;
+        margin-top: 41%;
+    
+    
+    }
+    .element {
+        position: absolute;
+        background-image: url(../img/azul_2.png);
+        width: 52%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7px;
+    }
+    .el5 {
+        margin-top: -28.4%;
+    }
+    .el4 {
+        margin-top: -7.9%;
+    }
+    .el3 {
+        margin-top: 12.1%;
+    }
+    .el2 {
+        margin-top: 31.9%;
+    }
+    .el1 {
+        margin-top: 52.2%;
+    }
+    html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+        opacity: 1 !important;
+    }
+
+    .lab {
+        margin-top: -25.3%;
+        width: 48.4%;
+        position: static;
+        margin-left: -28%;
+    }
+
+    .mil100txt {
+        margin-top: -2%;
+        width: 41.5%;
+        position: static;
+        margin-left: 54.5%;
+        z-index: 9999;
+    }
+
+    .mil25 {
+        width: 28.8%;
+        margin-top: 61%;
+        position: static;
+        margin-left: 5.3%;
+    }
+
+    .mil100b {
+        margin-top: -33%;
+        width: 29%;
+        position: static;
+        margin-left: 65.9%;
+    }
+    .mil100txt {
+        margin-top: -90%;
+        width: 41.5%;
+        position: static;
+        margin-left: 46.5%;
+        z-index: 9999;
+    }
+    #modal-bases-video {
+        width: 100%;
+        height: 100%;
+        padding: 7px;
+    }
+    .hiden-xs {
+        display: none;
+    }
+    #modal-bases {
+        height: 100%;
+    width: 100%;
+    padding: 7px;
+    }
+
+    .bases-mod {
+        top: 78%;
+    width: 13%;
+    position: absolute;
+    left: 28%;
+    cursor: pointer;
+    }
+
+
+}
+
+@media (max-width: 320px) { 
+    .participar {
+        height: 776px;
+    }
 }
