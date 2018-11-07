@@ -22,11 +22,10 @@
   margin-left: -25%;
 }
 .mil100txt {
-  margin-top: -22%;
-  width: 19.5%;
-  position: static;
-  margin-left: 17.5%;
-  z-index: 9999;
+    margin-top: -70%;
+    width: 20.2%;
+    position: static;
+    margin-left: -2%;
 }
 .mil100b {
     margin-top: -32%;
@@ -35,10 +34,10 @@
   margin-left: 69.9%;
 }
 .apt10 {
-    margin-top: -32%;
-    width: 20%;
+    margin-top: -45%;
+    width: 23%;
     position: static;
-    margin-left: 47.9%;
+    margin-left: 46.9%;
 }
 
 
@@ -132,7 +131,8 @@
 .section {
     background-image: url(../img/division.png);
     background-position: bottom;
-    height: 28px;
+    height: 37px;
+    margin-top: -1px;
     width: 100%;
     background-size: cover;
 }
@@ -212,7 +212,7 @@
     background-size: contain;
 }
 .comercial {
-    background-image: url(../img/comercial_back_k_o.png);
+    background-image: url(../img/monitork.png);
     /* background-image: url(../img/comercial_o.png); */
     background-repeat: no-repeat;
     background-position: center;
