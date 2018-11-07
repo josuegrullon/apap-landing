@@ -32,7 +32,7 @@
   <!-- fixed-top -->
   <nav class="navbar navbar-expand-lg  bg-trans fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand nav-b-mob" href="/">
+      <a class="navbar-brand nav-b-mob" href="#firstsection">
         <img class="golden-zero-image" src="img/logo_cero_de_oro.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -70,23 +70,28 @@
 
   <!-- CAROUSEL -->
 
-  <section class="slider-wrap ">
+  <section class="slider-wrap " id="firstsection">
     <div class="inn">
-
-      <img data-aos-mirror="true" data-aos="fade-up-right" src="img/25mil.png" class="mil25" alt="">
-      <img  data-aos="fade-right" src="img/laboratorio.png" class="lab" alt="">
-
-      <img data-aos="fade-left" src="img/100mil_text_upper.png" class="mil100txt" alt="">
-
-      <img data-aos="fade-up-left" src="img/100mil.png" class="mil100b" alt="">
+      <!-- <img src="img/Group_4.png" class="wide-bases" width="100%" /> -->
+      <!-- <img src="img/como_participar_mbile.png" width="100%" class="responsive-maquina" style="" /> -->
 
 
-      <a href="#participar">
+      <img data-aos-mirror="true" data-aos-duration="1000" data-aos="fade-up-right" src="img/25mil.png" class="mil25" alt="">
+      <img data-aos="fade-right" data-aos-duration="100" src="img/laboratorio.png" class="lab" alt="">
+
+      <img data-aos="fade-left" data-aos-duration="100" src="img/100mil_text_upper.png" class="mil100txt" alt="">
+
+      <img data-aos-duration="1000" data-aos="fade-up" src="img/10apt.png" class="apt10" alt="">
+      <img data-aos-duration="1000" data-aos="fade-up-left" src="img/100mil.png" class="mil100b" alt="">
+
+
+      <a href="#sorteos" style="    position: relative;
+      width: 10px;
+      height: 10px;">
         <img src="img/shaft.png" class="topArrow" style="
-  top: 830px;
-  width: 2%;
-  position: static;
-  margin-left: 50px;" alt="">
+        bottom: 24px;
+        position: absolute;
+        left: 55px;" alt="">
 
       </a>
     </div>
@@ -95,7 +100,9 @@
 
   <section id="participar">
     <div class="participar">
-      <img src="img/participar.png" class="hiden-xs" width="100%" style="visibility: hidden;" />
+      <img src="img/participar.png" class="wide-bases" width="100%" />
+
+      <img src="img/como_participar_mbile.png" width="100%" class="responsive-maquina" style="" />
 
       <a href="#sorteos">
         <img src="img/shaft.png" class="topArrow" style="
@@ -110,6 +117,11 @@
 
   <section id="sorteos">
     <div class="sorteos">
+
+
+      <img src="img/proximo_mobile.png" width="100%" class="responsive-maquina" style="" />
+      <img src="img/sorteos_back_2_o.png" class="wide-bases-2" width="100%" />
+
       <img data-aos="flip-up" src="img/proximo_sorteo_text.png" class="proximo_sorteo_text_c" alt=" ">
 
       <div class="group">
@@ -130,6 +142,7 @@
         </div>
       </div>
 
+
       <a href="#comercial">
         <img src="img/shaft.png" class="topArrow" style="     bottom: 9%;
       width: 2%;
@@ -143,7 +156,10 @@
   <!-- comercial -->
   <section id="comercial">
     <div class="comercial">
-      <img src="img/comercial.png" width="100%" style="visibility: hidden;" />
+
+      <img src="img/comercial_mobi.png" width="100%" class="responsive-maquina" style="" />
+      <img src="img/comercial.png" class="wide-bases" width="100%" />
+
 
       <img src="img/play.png" id="play-com" class="play-video" alt="">
       <a href="#bases">
@@ -158,9 +174,10 @@
   <!-- comercial -->
   <section id="bases">
     <div class="bases">
-      <img src="img/comercial.png" width="100%" style="visibility: hidden;" />
+      <img src="img/maquina.png" width="100%" class="responsive-maquina" style="" />
+      <img src="img/bases_o.png" width="100%" class="wide-bases" />
       <div>
-          <img src="img/play.png" id="play-bases" class="play-video" alt="">
+        <img src="img/play.png" id="play-bases" class="play-video" alt="">
         <iframe class="hiden-xs" style="
         bottom: 27%;
         position: absolute;
@@ -172,7 +189,6 @@
   </section>
   <div class="section" style="margin-top: -10px;"></div>
   <!-- corte comercial -->
-  <!-- <-->
 
   <div id="modal-comercial" class="demo-modal" style="">
     <a href="javascript:void(0);" onclick="Custombox.modal.close();" class="demo-close">
@@ -188,19 +204,18 @@
       <!-- <i class="fa fa-times"></i> -->
       <img src="img/close.svg" alt="">
     </a>
-    <iframe 
-    width="100%" height="100%" src="https://www.youtube.com/embed/zmfR_Jxl4TQ?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zmfR_Jxl4TQ?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
   </div>
 
 
-  <div id="modal-bases" class="demo-modal" style="null">
+  <div id="modal-bases" class="demo-modal" style="">
     <a href="javascript:void(0);" onclick="Custombox.modal.close();" class="demo-close">
       <!-- <i class="fa fa-times"></i> -->
       <img src="img/close.svg" alt="">
     </a>
     <button type="button" class="btn btn-outline btn-info demo-close-btn" onclick="Custombox.modal.close();">Close</button>
-    <div class="uk-modal-body uk-overflow-auto" uk-overflow-auto="" style="overflow: scroll; min-height: 150px; max-height: 418px;">
+    <div class="uk-modal-body uk-overflow-auto" uk-overflow-auto="" style="overflow: scroll;     height: 100%;">
       <div class="modal-header">
         <div class="uk-text-center">
           <img class="apap-modal-logo" src="img/logo-apap.png">
@@ -729,12 +744,12 @@
     });
 
     function topArrow() {
-      $('.topArrow').animate({
-        marginBottom: '-=15px'
-      }, 800).animate({
-        marginBottom: '+=15px'
-      }, 800);
-      setTimeout('topArrow()', 1600);
+      // $('.topArrow').animate({
+      //   marginBottom: '-=15px'
+      // }, 800).animate({
+      //   marginBottom: '+=15px'
+      // }, 800);
+      // setTimeout('topArrow()', 1600);
     }
   </script>
 

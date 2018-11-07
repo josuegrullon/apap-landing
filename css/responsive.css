@@ -12,7 +12,7 @@
     height: auto !important;
     width: auto !important;
     vertical-align: middle;
-    content: "";
+    content: initial !important;
     background: no-repeat center center;
     background-size: 100% 100%;
     }
@@ -60,46 +60,63 @@
         background-size: cover;
     }
     .participar {
+        padding: 0;
         background-image: url(../img/como_participar_mbile.png);
         background-repeat: no-repeat;
         background-position: top;
-        height: 850px;
+        height: 100%;
         width: 100%;
-        margin-bottom: 0px;
-        padding-bottom: 30px;
-        background-size: cover;
+        margin-bottom: -16px;
+        /* padding-bottom: 30px; */
+        background-size: contain;
     }
     .sorteos {
         background-image: url(../img/proximo_mobile.png);
         background-repeat: no-repeat;
         background-position: top;
-        height: 850px;
+        height: 100%;
+        /* height: 850px; */
+        position: relative;
         width: 100%;
         margin-bottom: 0px;
-        padding-bottom: 30px;
-        background-size: cover;
+        /* padding-bottom: 30px; */
+        padding: 0;
+        background-size: contain;
+    }
+    .responsive-maquina {
+        display: block !important;
+        visibility: hidden;
+    }
+    .wide-bases {
+        visibility: hidden;
+        display: none;
     }
     .bases {
         background-image: url(../img/maquina.png);
         background-repeat: no-repeat;
         background-position: top;
-        height: 850px;
+        height: 100%;
         width: 100%;
         margin-bottom: 0px;
-        padding-bottom: 30px;
-        background-size: cover;
+        /* padding-bottom: 30px; */
+        background-size: contain;
     }
     .comercial {
         background-image: url(../img/comercial_mobi.png);
         background-repeat: no-repeat;
         background-position: top;
-        height: 850px;
+        /* height: 850px; */
+        height: 100%;
         width: 100%;
         margin-bottom: 0px;
         padding-bottom: 30px;
         background-size: cover;
+        display: flex;
+        align-items: center;
     }
-
+    #play-com {
+        top: 38%;
+    }
     .play-video {
         top: 40%;
     width: 10%;
@@ -122,48 +139,57 @@
         padding: 7px;
     }
 
+    .apt10 {
+        display: none;
+    }
     .proximo_sorteo_text_c {
-        width: 27%;
+        top: 5%;
+        width: 73%;
+        position: absolute;
+        left: 7%;
+    }
+        /* width: 27%;
         margin-top: 31%;
         width: 89%;
         position: static;
-        margin-left: 8%;
-    }
+        margin-left: 8%; */
     .group {
-        display: flex;
-        flex-direction: column;
-        position: static;
-        margin-left: 24.5%;
-        margin-top: 41%;
-    
-    
+        margin: 0;
+        padding: 0;
     }
     .element {
         position: absolute;
+        padding: 0 !important;
         background-image: url(../img/azul_2.png);
-        width: 52%;
+        width: 51%;
         background-repeat: no-repeat;
         background-size: contain;
-        height: 40%;
+        height: 100px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
         padding: 7px;
+    
     }
     .el5 {
-        margin-top: -28.4%;
+        top: 58.9%;
+        left: 26%;
     }
     .el4 {
-        margin-top: -7.9%;
+        top: 65%;
+        left: 26%;
     }
     .el3 {
-        margin-top: 12.1%;
+        top: 70.9%;
+        left: 26%;
     }
     .el2 {
-        margin-top: 31.9%;
+        top: 77%;
+        left: 26%;
     }
     .el1 {
-        margin-top: 52.2%;
+        top: 83%;
+        left: 26%;
     }
     html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
         opacity: 1 !important;
@@ -219,18 +245,43 @@
     }
 
     .bases-mod {
-        top: 78%;
-    width: 13%;
-    position: absolute;
-    left: 28%;
-    cursor: pointer;
+        top: 76%;
+        width: 13%;
+        position: absolute;
+        left: 28%;
+        cursor: pointer;
     }
 
 
 }
 
 @media (max-width: 320px) { 
-    .participar {
+    /* .participar {
         height: 776px;
+    } */
+}
+@media (max-width: 384px) { 
+    /* .participar {
+        height: 776px;
+    } */
+}
+
+
+
+@media (max-width: 414px) { 
+    .inn {
+        height: 951px;
     }
+    /* .comercial {
+        height: 1008px !important;
+    }
+    .participar {
+        height: 974px !important;
+    }
+    .sorteos {
+        height: 986px !important;
+    }
+    .bases {
+        height: 1010px !important;
+    } */
 }
