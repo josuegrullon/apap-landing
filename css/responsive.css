@@ -29,12 +29,13 @@
     .nav-b-mob {
         width: 50%;
     }
+
     .nav-cus {
         position: absolute;
         top: 0;
         right: -40px;
-        z-index: -1;
     }
+
     .topArrow {
         display: none;
     }
@@ -49,6 +50,7 @@
     #play-bases {
         display: block !important;
     }
+
     .inn {
         background-image: url(../img/background_1_mobile.png);
         background-repeat: no-repeat;
@@ -58,6 +60,22 @@
         margin-bottom: 0px;
         padding-bottom: 30px;
         background-size: cover;
+    }
+    .fix-res-if {
+        bottom: 42%;
+        position: absolute;
+        left: 3%;
+        width: 94% !important;
+        height: 30% !important;
+    }
+    .fix-res-if-2 {
+        bottom: 46%;
+        position: absolute;
+        left: 2%;
+        width: 94% !important;
+        height: 26% !important;
+        visibility: visible !important;
+        display: block !important;
     }
     .participar {
         padding: 0;
@@ -116,6 +134,7 @@
     }
     #play-com {
         top: 38%;
+        display: none;
     }
     .play-video {
         top: 40%;

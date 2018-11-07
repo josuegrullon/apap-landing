@@ -383,3 +383,13 @@
     visibility: hidden;
     display: none;
 }
+
+.fix-res-if {
+    bottom: 27%;
+    position: absolute;
+    right: 60%;
+}
+.fix-res-if-2 {
+   visibility: hidden !important;
+   display: none !important;
+}
