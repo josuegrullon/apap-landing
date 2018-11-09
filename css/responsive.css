@@ -337,7 +337,7 @@
         position: absolute !important;
         left: 69px !important;
         height: 101% !important;
-        display: block !important;
+        display: none !important;
     }
 
 }
