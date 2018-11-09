@@ -302,11 +302,34 @@
     padding-left: 0;
     padding-right: 0;
   }
+.shaf_mobi {
+    display: none !important;
+
+}
+
+#modal-winners {
+    background-image: url(../img/winners.jpg);
+    padding: 7px;
+    margin: 0px;
+    height: 75%;
+    width: 50%;
+    /* display: block; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#res-maq {
+    display: none !important;
+
+}
+  .a2 {
+      display: none !important;
+  }
   .demo-close {
     display: block;
     position: absolute;
-    top: -35px;
-    right: -115px;
+    top: -21px;
+    right: -133px;
     /* right: 0; */
     z-index: 10000;
     outline: none;
@@ -316,7 +339,7 @@
     color: #FFF;
   }
   .demo-close > img {
-    width: 45%;
+    width: 32%;
   }
   
   .demo-browsers {
